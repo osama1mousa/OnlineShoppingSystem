@@ -7,7 +7,6 @@
 #include "Product.h"
 #include "User.h"
 
-
 using namespace std;
 
 map<int, double> discounts;
@@ -72,7 +71,7 @@ trypassagain:
             cout << "\t\t-------------------------------------------\n\n\n" << endl;
             cout << "\t\t******************************************* ";
             cout << endl << "\t\t* Thank You For shopping with Online Shopping System *" << endl;
-            cout << "\t\t*      Hope you Have a lovely day!!!      *" << endl;
+            cout << "\t\t*      We Hope To See You Again      *" << endl;
             cout << "\t\t*******************************************\n\n\n" << endl;
             returns = true;
         }
@@ -272,6 +271,7 @@ void handleProductChoice(Shop& shop, vector<shared_ptr<Product>>& products) {
         }
     }
 }
+
 // Definitions for GeneralProduct methods
 
 GeneralProduct::GeneralProduct(int id, string name, double price, string quantity)
@@ -295,17 +295,34 @@ void displayProducts(const vector<shared_ptr<Product>>& products) {
     }
     cout << "-----------------------------------------------------------" << endl;
 }
+
 int main() {
-    vector<shared_ptr<Product>> products;
+    vector<shared_ptr<Product>> products = {
+        make_shared<GeneralProduct>(1, "Laptop", 5000.0, "10"),
+        make_shared<GeneralProduct>(2, "Smartphone", 3000.0, "20"),
+        make_shared<GeneralProduct>(3, "T-Shirt", 50.0, "100"),
+        make_shared<GeneralProduct>(4, "Boxers", 30.0, "150"),
+        make_shared<GeneralProduct>(5, "Headphones", 200.0, "50")
+    };
+
     Administrator admin;
 
     while (true) {
         int option = 0;
-        cout << "\n\t\t\t     Welcome to EazyMart!!!" << endl;
-        cout << "\t\t\t  Are you a customer or an admin?" << endl;
-        cout << "1. Customer" << endl;
-        cout << "2. Admin" << endl;
-        cout << "Enter an option: ";
+        cout << "\n\t\t************************************************\n";
+        cout << "\t\t*                                              *\n";
+        cout << "\t\t*   Welcome to Online Shopping System           *\n";
+        cout << "\t\t*                                              *\n";
+        cout << "\t\t************************************************\n\n";
+        cout << "\tDesigned by : IBRAHIM HILVANI, MOHAMAD ALFATH BNSHE, OSAMA ALMOUSA" << endl;
+        cout << "\tLecturer : Dr. AbdulHafez AbdulHafez";
+        cout << endl;
+        cout << "\n\t\tAre you a Customer or an Admin?\n";
+        cout << "\t\t-------------------------------------------\n";
+        cout << "\t\t1. Customer" << endl;
+        cout << "\t\t2. Admin" << endl;
+        cout << "\t\t-------------------------------------------\n";
+        cout << "\t\tEnter an option: ";
         cin >> option;
         cin.ignore();
 
@@ -313,14 +330,19 @@ int main() {
             RegisteredCustomer user;
             Shop shop;
             while (true) {
-                cout << "\n\t\t\t     Welcome to EazyMart!!!" << endl;
+                cout << "\n\t\t\t     Welcome to Online Shopping System" << endl;
                 cout << "\t\t\t  What would you like to buy?" << endl << endl;
                 cout << "1. View Products" << endl;
                 cout << "2. My Account and Balance" << endl;
                 cout << "3. Show my carted Products and Checkout" << endl;
+                cout << "4. Return To the Main" << endl;
                 cout << "Enter an option: ";
                 cin >> option;
                 cin.ignore();
+
+                if (option == 4) {
+                    break; // Exit to main menu
+                }
 
                 switch (option) {
                     case 1:
