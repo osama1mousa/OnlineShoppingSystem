@@ -69,9 +69,9 @@ Run the compiled executable:
 ## Configuration
 The system can be configured by modifying the following files:
 
-### main.cpp: Contains the main program logic.
-### Product.h and Product.cpp: Define the Product class and its functionalities.
-### User.h and User.cpp: Define the User class (including Customer and Administrator) and their functionalities.
+- **main.cpp: Contains the main program logic.**
+  **Product.h and Product.cpp: Define the Product class and its functionalities.**
+  **User.h and User.cpp: Define the User class (including Customer and Administrator) and their functionalities.**
 
 ## Credits
 - **Osama Almousa - Developer**
@@ -83,4 +83,4 @@ The system can be configured by modifying the following files:
 - **Mohammad Alfath Bnshe:** malfath.bnshe@std.hku.edu.tr
 - **Ibrahim Hilvani:** ibrahim.hilvani@std.hku.edu.tr
 
-# Thank you ✨✨
+# Thank you 💻🤗🛒
