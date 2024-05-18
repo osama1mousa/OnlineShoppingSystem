@@ -67,10 +67,11 @@ Run the compiled executable:
   - Ability to set discounts on products.
 
 ## Configuration
-Configuration details for the system are specified in the `config.txt` file located in the root directory. This file includes settings for database connections, discount rates, and other system parameters.
+The system can be configured by modifying the following files:
 
-## Contributing
-We welcome contributions! Please fork the repository and submit pull requests. Follow the contributing guidelines provided in `CONTRIBUTING.md`.
+### main.cpp: Contains the main program logic.
+### Product.h and Product.cpp: Define the Product class and its functionalities.
+### User.h and User.cpp: Define the User class (including Customer and Administrator) and their functionalities.
 
 ## Credits
 - **Osama Almousa - Developer**
@@ -78,11 +79,8 @@ We welcome contributions! Please fork the repository and submit pull requests. F
 - **Ibrahim Hilvani - Developer**
 
 ## Contact
-- **Osama Almousa:** eosama.almousa@std.hku.edu.tr
+- **Osama Almousa:** osama.almousa@std.hku.edu.tr
 - **Mohammad Alfath Bnshe:** malfath.bnshe@std.hku.edu.tr
 - **Ibrahim Hilvani:** ibrahim.hilvani@std.hku.edu.tr
 
 # Thank you 💻🤗🛒
-```
-
-This revised README includes the necessary details about the system's features, installation steps, configuration, and contact information, ensuring clarity and completeness for users and contributors.
