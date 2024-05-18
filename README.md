@@ -83,4 +83,4 @@ The system can be configured by modifying the following files:
 - **Mohammad Alfath Bnshe:** malfath.bnshe@std.hku.edu.tr
 - **Ibrahim Hilvani:** ibrahim.hilvani@std.hku.edu.tr
 
-# Thank you ✨✨
+# Thank you for you ✨✨
