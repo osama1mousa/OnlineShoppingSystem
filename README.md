@@ -12,6 +12,7 @@ This project is an online shopping system that sells PC parts and desktop access
 - [Credits](#credits)
 - [Contact](#contact)
 
+
 ## Installation
 ### Prerequisites
 - C++ compiler (e.g., GCC, Clang)
