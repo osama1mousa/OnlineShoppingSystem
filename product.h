@@ -29,6 +29,8 @@ class GeneralProduct : public Product {
     string name;
     double price;
 double num;
+int idAdmin;
+
     string quantity;
 
 public:
