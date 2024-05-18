@@ -2,7 +2,7 @@
 # Online Shopping System
 
 ## Description
-This project is an online shopping system that sells  desktop accessories, software systems like Windows and iOS, and games for PCs. It supports a diverse product range including electronics, clothing, and groceries.
+This project is an online shopping system that sells PC parts, desktop accessories. It supports a diverse product range including electronics, clothing, and groceries.
 
 ## Table of Contents
 - [Installation](#installation)
