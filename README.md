@@ -58,7 +58,7 @@ public:
     void setQuantity(int quantity);
 };
 
-#endif // PRODUCT_H
+
 
 
 ## Contributing
