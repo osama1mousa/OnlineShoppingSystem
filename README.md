@@ -35,7 +35,7 @@ The Online Shopping System can be customized by modifying certain configuration 
 
 ### product.h
 The `product.h` file defines the product structure and related functionalities. You can configure the product attributes and methods as needed.
-
+```cpp
 // product.h
 
 #ifndef PRODUCT_H
@@ -57,7 +57,7 @@ public:
     void setQuantity(int quantity);
 };
 
-
+```
 
 
 ## Contributing
