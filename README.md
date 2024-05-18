@@ -79,8 +79,8 @@ The system can be configured by modifying the following files:
 - **Ibrahim Hilvani - Developer**
 
 ## Contact
-- **Osama Almousa:** osama.almousa@std.hku.edu.tr
-- **Mohammad Alfath Bnshe:** malfath.bnshe@std.hku.edu.tr
-- **Ibrahim Hilvani:** ibrahim.hilvani@std.hku.edu.tr
+- Osama Almousa: osama.almousa@std.hku.edu.tr
+- Mohammad Alfath  Bnshe: malfath.bnshe@std.hku.edu.tr
+- Ibrahim Hilvani:  ibrahim.hilvani@std.hku.edu.tr
 
 # Thank you for you ✨✨
