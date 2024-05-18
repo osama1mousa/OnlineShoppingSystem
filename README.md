@@ -58,7 +58,33 @@ public:
 };
 
 ```
+The user.h file defines the user structure and related functionalities. You can configure the user attributes and methods as needed.
 
+```cpp
+// product.h
+
+// user.h
+
+#ifndef USER_H
+#define USER_H
+
+#include <string>
+
+class User {
+private:
+    std::string username;
+    std::string password;
+
+public:
+    User(std::string username, std::string password);
+    std::string getUsername() const;
+    bool checkPassword(std::string password) const;
+};
+
+#endif // USER_H
+
+
+```
 
 ## Contributing
 We welcome contributions! Please fork the repository and submit pull requests. Follow the contributing guidelines provided in CONTRIBUTING.md.
