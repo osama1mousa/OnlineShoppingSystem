@@ -1,8 +1,10 @@
+Here is the text converted to Markdown:
 
+```markdown
 # Online Shopping System
 
 ## Description
-This project is an online shopping system that sells PC parts, desktop accessories. It supports a diverse product range including electronics, clothing, and groceries.
+This project is an online shopping system that sells PC parts and desktop accessories. It supports a diverse product range including electronics, clothing, and groceries. The system is implemented in C++ and comprises multiple classes that handle various functionalities of the system. These include customer management, product management, shopping cart operations, and administrative tasks. The system provides a console-based interface for interaction, making it straightforward to use for both customers and administrators.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -20,83 +22,70 @@ This project is an online shopping system that sells PC parts, desktop accessori
 
 ### Steps
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/online-shopping-system-cpp/OnlineShoppingSystem
+    ```bash
+    git clone https://github.com/online-shopping-system-cpp/OnlineShoppingSystem
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd OnlineShoppingSystem
+    ```
+3. Compile the project:
+    ```bash
+    g++ -o OnlineShoppingSystem main.cpp
+    ```
+
+## Usage
+Run the compiled executable:
+```bash
+./OnlineShoppingSystem
+```
 
 ## Features
-- Diverse product categories
-- Dynamic discount system
-- Tax and shipping calculations
-- User-friendly checkout process
+- **User Registration and Login:**
+  - Customers can create an account with a username, password, nickname, and initial balance.
+  - Secure login functionality.
 
-  ## Configuration
+- **Product Management:**
+  - Administrators can add, update, and delete products.
+  - Products have attributes like ID, name, price, and quantity.
 
-The Online Shopping System can be customized by modifying certain configuration files and settings. Below are the key files and parameters you may need to adjust:
+- **Discount Management:**
+  - Administrators can set discounts on products.
+  - Customers can view and apply available discounts during purchase.
 
-### product.h
-The `product.h` file defines the product structure and related functionalities. You can configure the product attributes and methods as needed.
-```cpp
-// product.h
+- **Shopping Cart:**
+  - Customers can add products to their cart.
+  - The cart displays the items, their quantities, and the total price.
+  - Checkout functionality processes the purchase and updates the customer’s balance.
 
-#ifndef PRODUCT_H
-#define PRODUCT_H
+- **Balance Management:**
+  - Customers can check and add to their balance.
 
-#include <string>
+- **Account Management:**
+  - Customers can view and update their account details.
+  - Password reset functionality using a nickname.
 
-class Product {
-private:
-    std::string name;
-    double price;
-    int quantity;
+- **Administrative Functions:**
+  - Administrators can view all registered customers and products.
+  - Ability to set discounts on products.
 
-public:
-    Product(std::string name, double price, int quantity);
-    std::string getName() const;
-    double getPrice() const;
-    int getQuantity() const;
-    void setQuantity(int quantity);
-};
-
-```
-The user.h file defines the user structure and related functionalities. You can configure the user attributes and methods as needed.
-
-```cpp
-// product.h
-
-// user.h
-
-#ifndef USER_H
-#define USER_H
-
-#include <string>
-
-class User {
-private:
-    std::string username;
-    std::string password;
-
-public:
-    User(std::string username, std::string password);
-    std::string getUsername() const;
-    bool checkPassword(std::string password) const;
-};
-
-#endif // USER_H
-
-
-```
+## Configuration
+Configuration details for the system are specified in the `config.txt` file located in the root directory. This file includes settings for database connections, discount rates, and other system parameters.
 
 ## Contributing
-We welcome contributions! Please fork the repository and submit pull requests. Follow the contributing guidelines provided in CONTRIBUTING.md.
+We welcome contributions! Please fork the repository and submit pull requests. Follow the contributing guidelines provided in `CONTRIBUTING.md`.
 
-### Credits
-- Osama Almousa- Developer
-- Mohammad Alfath Bnshe - Developer
-- Ibrahim Hilvani - Developer
+## Credits
+- **Osama Almousa - Developer**
+- **Mohammad Alfath Bnshe - Developer**
+- **Ibrahim Hilvani - Developer**
 
-### Contact
-- Osama Almousa- (eosama.almousa@std.hku.edu.tr)
-- Mohammad Alfath Bnshe - (malfath.bnshe@std.hku.edu.tr)
-- Ibrahim Hilvani - (ibrahim.hilvani@std.hku.edu.tr)
+## Contact
+- **Osama Almousa:** eosama.almousa@std.hku.edu.tr
+- **Mohammad Alfath Bnshe:** malfath.bnshe@std.hku.edu.tr
+- **Ibrahim Hilvani:** ibrahim.hilvani@std.hku.edu.tr
 
 # Thank you 💻🤗🛒
+```
+
+This revised README includes the necessary details about the system's features, installation steps, configuration, and contact information, ensuring clarity and completeness for users and contributors.
