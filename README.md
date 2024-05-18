@@ -70,8 +70,8 @@ Run the compiled executable:
 The system can be configured by modifying the following files:
 
 - **main.cpp: Contains the main program logic.**
-  **Product.h and Product.cpp: Define the Product class and its functionalities.**
-  **User.h and User.cpp: Define the User class (including Customer and Administrator) and their functionalities.**
+- **Product.h and Product.cpp: Define the Product class and its functionalities.**
+- **User.h and User.cpp: Define the User class (including Customer and Administrator) and their functionalities.**
 
 ## Credits
 - **Osama Almousa - Developer**
