@@ -1,6 +1,3 @@
-Here is the text converted to Markdown:
-
-```markdown
 # Online Shopping System
 
 ## Description
